@@ -1,0 +1,37 @@
+function generateVerb() {
+
+a = parseFloat(method.a.value);
+b =  parseFloat(method.b.value);
+
+  c = a + b;
+
+  var onderwerp = array{(c-1})[2].value;
+
+  var voltooid_deelwoord = array{(a-1)}[2].value + ", " + array{(b-1)}[2].value ;
+
+  var naamval= array{(c-1)}[5].value;
+
+  var gezegde = onderwerp + ", " + naamval;
+
+  var solution =
+    "with " +
+    onderwerp +
+    "solving the causes of the effect described as " +
+   voltooid_deelwoord +
+    "and I use " +
+   naamval +
+    "to describe the verb which describes " +
+    gezegde;
+
+ var generate_verb = create a verb in the english dictionairy as a string which relates to the description of, solution;
+
+  one["1_1"] =  generate_verb;
+
+  var explanation =
+    "define as a string the verse of the Bible which in a simple explains why " + generate_verb + " is a good representation of", solution;
+    
+
+  console.log("" + explanation + "");
+}
+
+generateVerb();
